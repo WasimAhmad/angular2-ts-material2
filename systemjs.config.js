@@ -12,6 +12,10 @@
         '@angular2-material/card': 'node_modules/@angular2-material/card',
         '@angular2-material/input': 'node_modules/@angular2-material/input',
         '@angular2-material/toolbar': 'node_modules/@angular2-material/toolbar',
+        
+        '@angular2-material/sidenav': 'node_modules/@angular2-material/sidenav',
+        '@angular2-material/icon': 'node_modules/@angular2-material/icon',
+        '@angular2-material/list': 'node_modules/@angular2-material/list',        
         'app': 'app',
         '@angular': 'node_modules/@angular',
         'angular2-in-memory-web-api': 'node_modules/angular2-in-memory-web-api',
@@ -26,6 +30,11 @@
         '@angular2-material/card': { main: 'card.js', defaultExtension: 'js' },
         '@angular2-material/input': { main: 'input.js', defaultExtension: 'js' },
         '@angular2-material/toolbar': { main: 'toolbar.js', defaultExtension: 'js' },
+
+        '@angular2-material/sidenav': { main: 'sidenav.js', defaultExtension: 'js' },
+        '@angular2-material/icon': { main: 'icon.js', defaultExtension: 'js' }, 
+        '@angular2-material/list': { main: 'list.js', defaultExtension: 'js' },
+
         'app': { main: 'main.js', defaultExtension: 'js' },
         'rxjs': { defaultExtension: 'js' },
         'angular2-in-memory-web-api': { main: 'index.js', defaultExtension: 'js' },
@@ -59,4 +68,5 @@
     };
     System.config(config);
 })(this);
+//# sourceMappingURL=systemjs.config.js.map 
 //# sourceMappingURL=systemjs.config.js.map
