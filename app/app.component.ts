@@ -14,6 +14,7 @@ import {MdRadioButton, MdRadioGroup, MdRadioDispatcher} from '@angular2-material
 @Component({
   selector: 'my-app',
   templateUrl : 'app/app.dashboard.html',
+  styleUrls : ['app/app.dashboard.css'],
   directives: [
     MD_SIDENAV_DIRECTIVES,
     MD_LIST_DIRECTIVES,
@@ -34,6 +35,51 @@ export class AppComponent {
  formShowing: boolean = false;
   views: Object[] = [
     {
+      name: "My Account",
+      description: "Edit my account information",
+      icon: "assignment ind"
+    },
+        {
+      name: "My Account",
+      description: "Edit my account information",
+      icon: "assignment ind"
+    },
+        {
+      name: "My Account",
+      description: "Edit my account information",
+      icon: "assignment ind"
+    },
+        {
+      name: "My Account",
+      description: "Edit my account information",
+      icon: "assignment ind"
+    },
+        {
+      name: "My Account",
+      description: "Edit my account information",
+      icon: "assignment ind"
+    },
+        {
+      name: "My Account",
+      description: "Edit my account information",
+      icon: "assignment ind"
+    },
+        {
+      name: "My Account",
+      description: "Edit my account information",
+      icon: "assignment ind"
+    },
+        {
+      name: "My Account",
+      description: "Edit my account information",
+      icon: "assignment ind"
+    },
+        {
+      name: "My Account",
+      description: "Edit my account information",
+      icon: "assignment ind"
+    },
+        {
       name: "My Account",
       description: "Edit my account information",
       icon: "assignment ind"
